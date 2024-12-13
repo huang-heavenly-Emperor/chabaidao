@@ -1,0 +1,193 @@
+/* 通用标题样式 */
+.section-title {
+    text-align: center;
+    padding: 50px 0 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    color: #1B4B36;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.section-title .en-title {
+    color: #8CAB96;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.section-title .en-title:before,
+.section-title .en-title:after {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: #B87E5F;
+    margin: 0 20px;
+}
+
+/* 主要内容区域 */
+.main {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/* 关于我们部分 */
+.about-section {
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.about-section .section-title {
+    padding-top: 0;
+}
+
+.about-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 2;
+    color: #444;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 460px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* 品牌故事部分 */
+.story-section {
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.story-section .section-title {
+    padding-top: 0;
+}
+
+.story-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.story-image {
+    width: 460px;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.story-text {
+    flex: 1;
+}
+
+.story-text h3 {
+    font-size: 20px;
+    color: #1B4B36;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.story-text p {
+    font-size: 16px;
+    line-height: 2;
+    color: #444;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+/* 运营优势部分 */
+.advantage-section {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.advantage-section .section-title {
+    padding-top: 0;
+}
+
+.advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.advantage-item {
+    flex: 1;
+    min-width: calc(50% - 15px);
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.advantage-item:hover {
+    transform: translateY(-5px);
+}
+
+.advantage-item h4 {
+    font-size: 18px;
+    color: #1B4B36;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.advantage-item h4:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background: #B87E5F;
+    border-radius: 50%;
+}
+
+.advantage-item p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #666;
+} 

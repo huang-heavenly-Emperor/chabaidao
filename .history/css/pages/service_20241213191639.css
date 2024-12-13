@@ -1,0 +1,79 @@
+/* 主要内容区域 */
+.main-content {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* 标题样式 */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    color: #1B4B36;
+    margin-bottom: 10px;
+}
+
+.section-title .en-title {
+    color: #B87E5F;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* 服务内容样式 */
+.service-box {
+    width: 1210px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.service-left, .service-right {
+    width: 580px;
+    float: left;
+    margin: 0 10px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 图标背景 */
+.icon1 { background-image: url('/images/service/icon1.png'); }
+.icon2 { background-image: url('/images/service/icon2.png'); }
+.icon3 { background-image: url('/images/service/icon3.png'); }
+.icon4 { background-image: url('/images/service/icon4.png'); }
+.icon5 { background-image: url('/images/service/icon5.png'); }
+.icon6 { background-image: url('/images/service/icon6.png'); }
+
+.service-text {
+    overflow: hidden;
+}
+
+.service-text h3 {
+    font-size: 18px;
+    color: #1B4B36;
+    margin-bottom: 10px;
+}
+
+.service-text p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 14px;
+}

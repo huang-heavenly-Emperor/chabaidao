@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新闻资讯 - 茶百道</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/pages/news.css" />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <header class="header">
+      <div class="top-banner">
+        <img src="./images/common/header-bg.webp" alt="新闻资讯" />
+      </div>
+      <div class="nav">
+        <div class="nav-content">
+          <div class="logo">
+            <h1>茶百道</h1>
+          </div>
+          <ul class="nav-list">
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./about.html">关于我们</a></li>
+            <li><a href="./products.html">产品展示</a></li>
+            <li><a href="./news.html" class="active">新闻资讯</a></li>
+            <li><a href="./contact.html">联系我们</a></li>
+          </ul>
+          <div class="search">
+            <input type="text" placeholder="搜索新闻..." />
+            <button>搜索</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <div class="main">
+      <!-- 左侧边栏 -->
+      <div class="news-sidebar">
+        <h3 class="sidebar-title">要闻速递</h3>
+        <ul class="news-quick-list">
+          <li><a href="#">茶百道加盟费是多少?开店预算分析</a></li>
+          <li><a href="#">茶百道官网告诉你如何成为一个成功的品牌</a></li>
+          <li><a href="#">加盟茶百道能赚钱吗?品牌经营优势分析</a></li>
+          <li><a href="#">茶百道加盟开店10万元够吗，费用明细</a></li>
+          <li><a href="#">茶百道奶茶加盟费每年都要交吗?</a></li>
+          <li><a href="#">茶百道官网这3个优势让投资者获取更多财富</a></li>
+        </ul>
+      </div>
+
+      <!-- 右侧新闻列表 -->
+      <div class="news-content">
+        <div class="section-title">
+          <h2>新闻资讯</h2>
+          <div class="en-title">NEWS</div>
+        </div>
+        <div class="news-list">
+          <!-- 新闻项 -->
+          <div class="news-item">
+            <div class="news-image">
+              <img src="./images/news/news1.jpg" alt="茶百道加盟费" />
+            </div>
+            <div class="news-info">
+              <a href="#" class="news-title">茶百道加盟费是多少?开店预算分析</a>
+              <p class="news-desc">
+                在这个时代，开奶茶店是主流的创业方式之一，因为现在的年轻人有一股傲气，茶百道品牌在市场上有很高的知名度，开店需要多少费用呢？
+              </p>
+              <div class="news-meta">
+                <span class="news-category">[新闻动态]</span>
+                <span class="news-date">2021-05-12</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="news-item">
+            <div class="news-image">
+              <img src="./images/news/news2.jpg" alt="茶百道官网" />
+            </div>
+            <div class="news-info">
+              <a href="#" class="news-title"
+                >茶百道官网告诉你如何成为一个成功的品牌</a
+              >
+              <p class="news-desc">
+                在过去的几年里，奶茶行业在我国的受欢迎程度是显而易见的，许多投资者都参与其中，茶百道品牌就是其中的佼佼者。
+              </p>
+              <div class="news-meta">
+                <span class="news-category">[新闻动态]</span>
+                <span class="news-date">2021-05-11</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="news-item">
+            <div class="news-image">
+              <img src="./images/news/news3.jpg" alt="加盟茶百道" />
+            </div>
+            <div class="news-info">
+              <a href="#" class="news-title"
+                >加盟茶百道能赚钱吗?品牌经营优势分析</a
+              >
+              <p class="news-desc">
+                茶百道品牌在奶茶行业有多年的发展经验，始终将奶茶口味与质量放在经营的首位，让消费者能够喝到美味的奶茶。
+              </p>
+              <div class="news-meta">
+                <span class="news-category">[新闻动态]</span>
+                <span class="news-date">2021-05-09</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 分页 -->
+        <div class="pagination">
+          <a href="javascript:void(0)" onclick="changePage(1)" class="active"
+            >1</a
+          >
+          <a href="javascript:void(0)" onclick="changePage(2)">2</a>
+          <a href="javascript:void(0)" onclick="changePage(3)">3</a>
+          <a href="javascript:void(0)" onclick="changePage(4)">4</a>
+          <a href="javascript:void(0)" onclick="changePage(5)">5</a>
+          <span>...</span>
+          <a href="javascript:void(0)" onclick="changePage(39)">39</a>
+          <a href="javascript:void(0)" onclick="nextPage()">下一页</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>关于我们</h3>
+          <p>
+            茶百道创立于2010年，专注于优质茶叶的研发与销售，始终秉持"品质至上"的经营理念，为消费者提供最优质的茶品。
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>联系方式</h3>
+          <p>电话：400-123-4567</p>
+          <p>邮箱：info@chabaidao.com</p>
+          <p>地址：浙江省杭州市西湖区茶香路88号</p>
+        </div>
+        <div class="footer-section">
+          <h3>关注我们</h3>
+          <p>微信公众号：茶百道</p>
+          <p>营业时间：周一至周日 9:00-21:00</p>
+        </div>
+      </div>
+      <div class="back-top">↑</div>
+    </footer>
+
+    <script>
+      // 返回顶部按钮
+      var backTop = document.querySelector(".back-top");
+      window.onscroll = function () {
+        if (window.pageYOffset > 300) {
+          backTop.style.display = "block";
+        } else {
+          backTop.style.display = "none";
+        }
+      };
+
+      backTop.onclick = function () {
+        window.scrollTo(0, 0);
+      };
+
+      // 分页功能
+      var currentPage = 1;
+      var totalPages = 39;
+
+      function changePage(page) {
+        // 移除之前的激活状态
+        var oldActive = document.querySelector(".pagination .active");
+        if (oldActive) {
+          oldActive.className = "";
+        }
+
+        // 添加新的激活状态
+        var links = document.querySelectorAll(".pagination a");
+        for (var i = 0; i < links.length; i++) {
+          if (links[i].innerHTML == page) {
+            links[i].className = "active";
+            break;
+          }
+        }
+
+        // 更新当前页码
+        currentPage = page;
+
+        // 回到顶部
+        window.scrollTo(0, 0);
+
+        // 这里可以添加加载新内容的代码
+        console.log("加载第" + page + "页");
+      }
+
+      function nextPage() {
+        if (currentPage < totalPages) {
+          changePage(currentPage + 1);
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+/* 面包屑导航 */
+.breadcrumb {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 10px 0;
+    color: #666;
+}
+
+.breadcrumb a {
+    color: #1B4B36;
+}
+
+.breadcrumb span {
+    color: #999;
+}
+
+/* 店面列表样式 */
+.store-list {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.store-item {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    transition: all 0.3s;
+}
+
+.store-item:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.store-img {
+    width: 141px;
+    height: 92px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.store-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.store-img:hover img {
+    transform: scale(1.05);
+}
+
+.store-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.store-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.store-info h3 a {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.store-info h3 a:hover {
+    color: #1B4B36;
+}
+
+.store-desc {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.store-meta {
+    color: #999;
+    font-size: 14px;
+}
+
+.store-meta .category {
+    color: #1B4B36;
+}
+
+.store-meta .date {
+    margin-left: 15px;
+}
+
+.read-more {
+    float: right;
+    color: #1B4B36;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* 分页样式 */
+.pagination {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.page-info {
+    color: #666;
+}
+
+.page-info strong {
+    color: #1B4B36;
+    margin: 0 5px;
+}
+
+/* 返回顶部按钮样式 */
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background: #1B4B36;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.back-to-top:hover {
+    background: #2C7154;
+}
+
+.arrow-up {
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    transform: rotate(45deg);
+    margin-top: 4px;
+} 

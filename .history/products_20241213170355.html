@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品展示 - 茶百道</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/pages/products.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="top-banner">
+            <img src="./images/common/header-bg.webp" alt="产品展示">
+        </div>
+        <div class="nav">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>茶百道</h1>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./about.html">关于我们</a></li>
+                    <li><a href="./products.html" class="active">产品展示</a></li>
+                    <li><a href="./news.html">新闻资讯</a></li>
+                    <li><a href="./contact.html">联系我们</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="搜索产品...">
+                    <button>搜索</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <div class="main">
+        <div class="products-section">
+            <div class="section-title">
+                <h2>产品展示</h2>
+                <div class="en-title">PRODUCTS</div>
+            </div>
+            <div class="products-list">
+                <!-- 产品项 -->
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./images/products/tea1.jpg" alt="铁观音">
+                    </div>
+                    <div class="product-info">
+                        <h3>特级铁观音</h3>
+                        <p class="product-desc">精选安溪铁观音，香气浓郁，回甘持久，茶汤清澈金黄。</p>
+                        <div class="product-price">¥288 <small>¥358</small></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./images/products/tea2.jpg" alt="大红袍">
+                    </div>
+                    <div class="product-info">
+                        <h3>武夷大红袍</h3>
+                        <p class="product-desc">宗武夷山大红袍，岩韵十足，香气馥郁，口感醇厚。</p>
+                        <div class="product-price">¥368 <small>¥458</small></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./images/products/tea3.jpg" alt="龙井">
+                    </div>
+                    <div class="product-info">
+                        <h3>西湖龙井</h3>
+                        <p class="product-desc">明前采摘，色泽翠绿，香气清高，滋味鲜爽。</p>
+                        <div class="product-price">¥428 <small>¥528</small></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./images/products/tea4.jpg" alt="普洱">
+                    </div>
+                    <div class="product-info">
+                        <h3>陈年普洱</h3>
+                        <p class="product-desc">云南普洱陈茶，醇厚绵长，越陈越香，回甘持久。</p>
+                        <div class="product-price">¥588 <small>¥688</small></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./images/products/tea5.jpg" alt="金骏眉">
+                    </div>
+                    <div class="product-info">
+                        <h3>正山小种</h3>
+                        <p class="product-desc">武夷山正山小种，松烟香浓郁，汤色红艳，口感醇厚。</p>
+                        <div class="product-price">¥328 <small>¥398</small></div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./images/products/tea6.jpg" alt="碧螺春">
+                    </div>
+                    <div class="product-info">
+                        <h3>明前碧螺春</h3>
+                        <p class="product-desc">苏州洞庭山碧螺春，香气清新，滋味甘醇，回味悠长。</p>
+                        <div class="product-price">¥398 <small>¥468</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>关于我们</h3>
+                <p>茶百道创立于2010年，专注于优质茶叶的研发与销售，始终秉持"品质至上"的经营理念，为消费者提供最优质的茶品。</p>
+            </div>
+            <div class="footer-section">
+                <h3>联系方式</h3>
+                <p>电话：400-123-4567</p>
+                <p>邮箱：info@chabaidao.com</p>
+                <p>地址：浙江省杭州市西湖区茶香路88号</p>
+            </div>
+            <div class="footer-section">
+                <h3>关注我们</h3>
+                <p>微信公众号：茶百道</p>
+                <p>营业时间：周一至周日 9:00-21:00</p>
+            </div>
+        </div>
+        <div class="back-top">↑</div>
+    </footer>
+
+    <script>
+        // 返回顶部按钮
+        const backTop = document.querySelector('.back-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backTop.classList.add('show');
+            } else {
+                backTop.classList.remove('show');
+            }
+        });
+        
+        backTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,145 @@
+/* 页面标题样式 */
+.page-title {
+    text-align: center;
+    padding: 50px 0;
+    background: #F5F9F7;
+    margin-bottom: 30px;
+}
+
+.page-title h2 {
+    font-size: 36px;
+    color: #1B4B36;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.page-title p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* 店面列表样式 */
+.store-list {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.store-item {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: all 0.3s;
+    background: #fff;
+}
+
+.store-item:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+.store-img {
+    width: 280px;
+    height: 180px;
+    overflow: hidden;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.store-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.store-img:hover img {
+    transform: scale(1.1);
+}
+
+.store-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.store-info h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.store-info h3 a {
+    color: #1B4B36;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.store-info h3 a:hover {
+    color: #2C7154;
+}
+
+.store-desc {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.store-meta {
+    color: #999;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.store-meta .category {
+    color: #B87E5F;
+    background: #FFF5F0;
+    padding: 4px 12px;
+    border-radius: 15px;
+}
+
+.store-meta .date {
+    margin-left: 15px;
+}
+
+.read-more {
+    color: #1B4B36;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.read-more:hover {
+    color: #2C7154;
+    text-decoration: none;
+    transform: translateX(5px);
+}
+
+/* 分页样式 */
+.pagination {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.page-info {
+    color: #666;
+    font-size: 14px;
+    background: #F5F9F7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.page-info strong {
+    color: #1B4B36;
+    margin: 0 5px;
+    font-weight: bold;
+} 
