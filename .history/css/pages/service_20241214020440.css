@@ -1,0 +1,55 @@
+/* 主要内容 */
+.main {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/* 服务内容 */
+.service-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-left, .service-right {
+    width: 50%;
+    float: left;
+    margin: ;
+}
+
+/* 服务项目样式 */
+.service-left li, .service-right li {
+    margin-bottom: 40px;
+    padding-left: 60px;
+    position: relative;
+    min-height: 50px;
+}
+
+/* 图标样式 */
+.dian1, .dian2, .dian3, .dian4, .dian5, .dian6 {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 40px;
+}
+
+.dian1 { background-image: url('../../images/service/dian1.png'); }
+.dian2 { background-image: url('../../images/service/hdian2.png'); }
+.dian3 { background-image: url('../../images/service/dian3.png'); }
+.dian4 { background-image: url('../../images/service/dian4.png'); }
+.dian5 { background-image: url('../../images/service/dian5.png'); }
+.dian6 { background-image: url('../../images/service/dian6.png'); }
+
+/* 文字样式 */
+.service-left li h3, .service-right li h3 {
+    font-size: 18px;
+    color: #1B4B36;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service-left li span, .service-right li span {
+    color: #666;
+    line-height: 1.8;
+    font-size: 14px;
+    display: block;
+}
